@@ -1,0 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 1;
+    float b = 1;
+    char c=1;
+
+   /* scanf("%d ",&a);
+    scanf("%f ",&b);
+    scanf("%c", &c);*/
+
+ /* scanf("%d %f", &a, &b);
+    scanf("%c",&c);*/
+
+    scanf("%d %f %c",&a,&b,&c);
+    
+
+    printf("%d ", a);
+    printf("%f ", b);
+    printf("%c ", c);
+
+    return 0;
+}
+
