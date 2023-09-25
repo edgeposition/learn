@@ -1,0 +1,15 @@
+//if函数
+int main()
+    {
+        scanf("%d", &a);
+        if(a>=0)
+        {
+
+        if( a%3 ==0 )
+        {printf("YES");}
+        else
+        {printf("NO");}
+
+        }
+        else { printf("不是正数"); }
+    }
