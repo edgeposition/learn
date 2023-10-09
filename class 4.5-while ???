@@ -5,7 +5,7 @@ int main()
     int a=0,b=0,c=0,d=0;
     char s='0';
 
-       这→ while (s != '\0') 这
+          while (s != '\n') 
         {   
             scanf("%c", &s);
             if ( (s>=65 && s<=90) || (s>=97 && s<=122) ) { a++; }
@@ -13,7 +13,7 @@ int main()
             else if (s >= 48 && s <= 57) { c++; }
             else if ((33 <= s && s <= 47) || (58 <= s && s <= 64) || (91 <= s && s <= 96) || (123 <= s && s <= 126))
             {d++;}
-            else 这
+            else 
                 break;
         }
 
